@@ -1,0 +1,15 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.title {
+  font-size: 1.8em;
+  user-select: none;
+}
+
+mat-toolbar {
+  padding: 0 14px;
+  height: 10vh;
+  min-height: 60px;
+  color: #0a0a0a;
+}

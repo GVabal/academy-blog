@@ -1,0 +1,24 @@
+.accent {
+  font-weight: bolder;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+mat-card {
+  border-radius: 0;
+  display: inline-flex;
+}
+
+mat-card-content, mat-card-actions {
+  margin-left: 1em;
+}
+
+mat-card-content p {
+  font-size: 1.1em;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  margin: 0 !important;
+}

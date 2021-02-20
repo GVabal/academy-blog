@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <span class="title">Academy Blog</span>
+  <span class="spacer"></span>
+  <button mat-button [matMenuTriggerFor]="categoryMenu">Categories ▾</button>
+  <button mat-button>About</button>
+</mat-toolbar>
+
+<mat-menu #categoryMenu="matMenu" xPosition="before">
+  <button mat-menu-item>Interesting</button>
+  <button mat-menu-item>Important</button>
+  <button mat-menu-item>Experimental</button>
+</mat-menu>

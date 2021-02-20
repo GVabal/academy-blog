@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<mat-drawer-container>
+  <mat-drawer mode="side" opened>
+    <mat-list>
+      <app-sidebar-link
+        *ngFor="let post of posts"
+        [post]="post"
+        (sidebarLink)="onSidebarLink($event)"
+      ></app-sidebar-link>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <app-post
+      *ngFor="let post of posts"
+      [post]="post"
+      (readMore)="onReadMore($event)"
+      (comments)="onComments($event)"
+      (author)="onAuthor($event)"
+    ></app-post>
+  </mat-drawer-content>
+</mat-drawer-container>
