@@ -1,4 +1,4 @@
-import {Post} from './interfaces/Post';
+import {Post} from './blog/interfaces/Post';
 
 const someBlogpostData: Post[] = [
   {
