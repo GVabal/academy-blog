@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Post} from '../../interfaces/Post';
-import someBlogpostData from '../../../some-blogpost-data';
+import {Post} from '../interfaces/Post';
+import someBlogpostData from '../../some-blogpost-data';
 
 @Component({
   selector: 'app-home-page',
